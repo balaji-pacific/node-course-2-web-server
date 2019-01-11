@@ -1,0 +1,15 @@
+{
+  "name": "web-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Balaji",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.0.0-alpha.7",
+    "hbs": "^4.0.1"
+  }
+}

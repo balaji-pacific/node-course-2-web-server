@@ -70,6 +70,14 @@ app.get('/help', (req, res) => {
   res.send();
 });
 
+app.get('/projects', (req, res) => {
+  res.render('projects.hbs', {
+    pageTitle: 'Projects',
+    headerMessage: 'Projects Page',
+    welcomeMessage: 'Portfolios'
+  });
+});
+
 app.listen(port, () =>{
   console.log(`Server started in port ${port}`);
 });
